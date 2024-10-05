@@ -18,7 +18,7 @@ func main() {
 		log.Fatalf("Error writing results to file: %v", err)
 	}
 
-	fmt.Printf("EBT: %.1f\nProfit: %.1f\nRatio: %.2f\n", ebt, profit, ratio)
+	fmt.Printf("EBT: %.2f\nProfit: %.2f\nRatio: %.2f\n", ebt, profit, ratio)
 }
 
 func promptForInput(prompt string) float64 {
