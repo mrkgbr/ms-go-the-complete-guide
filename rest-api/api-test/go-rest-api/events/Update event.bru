@@ -1,0 +1,20 @@
+meta {
+  name: Update event
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:8080/events/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "updated test event",
+      "description": "updated description",
+      "location": "A test location (updated)",
+      "dateTime": "2099-01-01T15:30:00.000Z"
+  }
+}

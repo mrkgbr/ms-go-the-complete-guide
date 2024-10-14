@@ -6,6 +6,7 @@
         "filemanager",
         "fileops",
         "iomanager",
-        "randomdata"
+        "randomdata",
+        "signup"
     ]
 }
